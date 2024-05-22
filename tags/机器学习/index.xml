@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>机器学习 on Enly</title>
+    <link>http://localhost:1313/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</link>
+    <description>Recent content in 机器学习 on Enly</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2024 Enly</copyright>
+    <lastBuildDate>Sat, 22 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>花书笔记</title>
+      <link>http://localhost:1313/blogs/%E8%8A%B1%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blogs/%E8%8A%B1%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+      <description>花书 - 《 深度学习 》学习笔记</description>
+      
+    </item>
+    
+    <item>
+      <title>西瓜书笔记(下)</title>
+      <link>http://localhost:1313/blogs/%E8%A5%BF%E7%93%9C%E4%B9%A6%E7%AC%94%E8%AE%B0%E4%B8%8B/</link>
+      <pubDate>Sun, 23 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blogs/%E8%A5%BF%E7%93%9C%E4%B9%A6%E7%AC%94%E8%AE%B0%E4%B8%8B/</guid>
+      <description>西瓜书 - 《 机器学习 》学习笔记 - 9-16章</description>
+      
+    </item>
+    
+    <item>
+      <title>西瓜书笔记(上)</title>
+      <link>http://localhost:1313/blogs/%E8%A5%BF%E7%93%9C%E4%B9%A6%E7%AC%94%E8%AE%B0%E4%B8%8A/</link>
+      <pubDate>Wed, 12 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blogs/%E8%A5%BF%E7%93%9C%E4%B9%A6%E7%AC%94%E8%AE%B0%E4%B8%8A/</guid>
+      <description>西瓜书 - 《 机器学习 》 学习笔记 - 1-8章</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Enly</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Enly</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2024 Enly</copyright>
+    <lastBuildDate>Sat, 18 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>生日：2003.11.13</description>
+      
+    </item>
+    
+    <item>
+      <title>花书笔记</title>
+      <link>http://localhost:1313/blogs/%E8%8A%B1%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blogs/%E8%8A%B1%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+      <description>花书 - 《 深度学习 》学习笔记</description>
+      
+    </item>
+    
+    <item>
+      <title>西瓜书笔记(下)</title>
+      <link>http://localhost:1313/blogs/%E8%A5%BF%E7%93%9C%E4%B9%A6%E7%AC%94%E8%AE%B0%E4%B8%8B/</link>
+      <pubDate>Sun, 23 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blogs/%E8%A5%BF%E7%93%9C%E4%B9%A6%E7%AC%94%E8%AE%B0%E4%B8%8B/</guid>
+      <description>西瓜书 - 《 机器学习 》学习笔记 - 9-16章</description>
+      
+    </item>
+    
+    <item>
+      <title>西瓜书笔记(上)</title>
+      <link>http://localhost:1313/blogs/%E8%A5%BF%E7%93%9C%E4%B9%A6%E7%AC%94%E8%AE%B0%E4%B8%8A/</link>
+      <pubDate>Wed, 12 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blogs/%E8%A5%BF%E7%93%9C%E4%B9%A6%E7%AC%94%E8%AE%B0%E4%B8%8A/</guid>
+      <description>西瓜书 - 《 机器学习 》 学习笔记 - 1-8章</description>
+      
+    </item>
+    
+    <item>
+      <title>编译原理上机 - 函数绘图语言编译器 - 报告及代码下载链接</title>
+      <link>http://localhost:1313/blogs/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E4%B8%8A%E6%9C%BA%E6%8A%A5%E5%91%8A%E5%8F%8A%E4%BB%A3%E7%A0%81%E9%93%BE%E6%8E%A5/</link>
+      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blogs/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E4%B8%8A%E6%9C%BA%E6%8A%A5%E5%91%8A%E5%8F%8A%E4%BB%A3%E7%A0%81%E9%93%BE%E6%8E%A5/</guid>
+      <description>西电编译原理大作业 - 函数绘图语言编译器C++实现 - 报告及代码下载链接</description>
+      
+    </item>
+    
+    <item>
+      <title>编译原理上机(三) - 绘图器</title>
+      <link>http://localhost:1313/blogs/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E4%B8%8A%E6%9C%BA%E4%B8%89/</link>
+      <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blogs/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E4%B8%8A%E6%9C%BA%E4%B8%89/</guid>
+      <description>西电编译原理大作业 - 函数绘图语言编译器C++实现 - Part 3 - 绘图器</description>
+      
+    </item>
+    
+    <item>
+      <title>编译原理上机(二) — 语法分析器</title>
+      <link>http://localhost:1313/blogs/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E4%B8%8A%E6%9C%BA%E4%BA%8C/</link>
+      <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blogs/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E4%B8%8A%E6%9C%BA%E4%BA%8C/</guid>
+      <description>西电编译原理大作业 - 函数绘图语言编译器C++实现 - Part 2 - 语法分析器</description>
+      
+    </item>
+    
+    <item>
+      <title>编译原理上机（一) - 词法分析器</title>
+      <link>http://localhost:1313/blogs/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E4%B8%8A%E6%9C%BA%E4%B8%80/</link>
+      <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blogs/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E4%B8%8A%E6%9C%BA%E4%B8%80/</guid>
+      <description>西电编译原理大作业 - 函数绘图语言编译器C++实现 - Part 1 - 词法分析器</description>
+      
+    </item>
+    
+  </channel>
+</rss>

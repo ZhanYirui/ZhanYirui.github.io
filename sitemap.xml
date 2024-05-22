@@ -3,61 +3,61 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://www.enly.site/about/</loc>
     <lastmod>2024-05-18T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://www.enly.site/</loc>
     <lastmod>2024-05-18T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/blogs/</loc>
+    <loc>https://www.enly.site/blogs/</loc>
     <lastmod>2023-07-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/blogs/%E8%8A%B1%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://www.enly.site/blogs/%E8%8A%B1%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2023-07-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/blogs/%E8%A5%BF%E7%93%9C%E4%B9%A6%E7%AC%94%E8%AE%B0%E4%B8%8B/</loc>
+    <loc>https://www.enly.site/blogs/%E8%A5%BF%E7%93%9C%E4%B9%A6%E7%AC%94%E8%AE%B0%E4%B8%8B/</loc>
     <lastmod>2023-04-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/blogs/%E8%A5%BF%E7%93%9C%E4%B9%A6%E7%AC%94%E8%AE%B0%E4%B8%8A/</loc>
+    <loc>https://www.enly.site/blogs/%E8%A5%BF%E7%93%9C%E4%B9%A6%E7%AC%94%E8%AE%B0%E4%B8%8A/</loc>
     <lastmod>2023-04-12T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/blogs/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E4%B8%8A%E6%9C%BA%E6%8A%A5%E5%91%8A%E5%8F%8A%E4%BB%A3%E7%A0%81%E9%93%BE%E6%8E%A5/</loc>
+    <loc>https://www.enly.site/blogs/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E4%B8%8A%E6%9C%BA%E6%8A%A5%E5%91%8A%E5%8F%8A%E4%BB%A3%E7%A0%81%E9%93%BE%E6%8E%A5/</loc>
     <lastmod>2022-11-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/blogs/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E4%B8%8A%E6%9C%BA%E4%B8%89/</loc>
+    <loc>https://www.enly.site/blogs/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E4%B8%8A%E6%9C%BA%E4%B8%89/</loc>
     <lastmod>2022-11-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/blogs/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E4%B8%8A%E6%9C%BA%E4%BA%8C/</loc>
+    <loc>https://www.enly.site/blogs/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E4%B8%8A%E6%9C%BA%E4%BA%8C/</loc>
     <lastmod>2022-11-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/blogs/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E4%B8%8A%E6%9C%BA%E4%B8%80/</loc>
+    <loc>https://www.enly.site/blogs/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E4%B8%8A%E6%9C%BA%E4%B8%80/</loc>
     <lastmod>2022-11-19T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

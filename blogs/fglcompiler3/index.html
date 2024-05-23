@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
-  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  data-auto-appearance="true"><head>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>编译原理上机(二) — 语法分析器 &middot; Enly</title>
-  <meta name="title" content="编译原理上机(二) — 语法分析器 &middot; Enly" />
+  <title>编译原理上机(三) - 绘图器 &middot; Enly</title>
+  <meta name="title" content="编译原理上机(三) - 绘图器 &middot; Enly" />
   
-  <meta name="description" content="编译原理上机(二) - 语法分析器" />
+  <meta name="description" content="编译原理上机(三) - 绘图器" />
   <meta name="keywords" content="编译原理, " />
   
   
-  <link rel="canonical" href="http://localhost:1313/blogs/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E4%B8%8A%E6%9C%BA%E4%BA%8C/" />
+  <link rel="canonical" href="https://www.enly.site/blogs/fglcompiler3/" />
   
   
   
@@ -61,21 +61,21 @@
   
   
   
-  <meta property="og:url" content="http://localhost:1313/blogs/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E4%B8%8A%E6%9C%BA%E4%BA%8C/">
+  <meta property="og:url" content="https://www.enly.site/blogs/fglcompiler3/">
   <meta property="og:site_name" content="Enly">
-  <meta property="og:title" content="编译原理上机(二) — 语法分析器">
-  <meta property="og:description" content="编译原理上机(二) - 语法分析器">
+  <meta property="og:title" content="编译原理上机(三) - 绘图器">
+  <meta property="og:description" content="编译原理上机(三) - 绘图器">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blogs">
-    <meta property="article:published_time" content="2022-11-20T00:00:00+00:00">
-    <meta property="article:modified_time" content="2022-11-20T00:00:00+00:00">
+    <meta property="article:published_time" content="2022-11-21T00:00:00+00:00">
+    <meta property="article:modified_time" content="2022-11-21T00:00:00+00:00">
     <meta property="article:tag" content="编译原理">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="编译原理上机(二) — 语法分析器">
-  <meta name="twitter:description" content="编译原理上机(二) - 语法分析器">
+  <meta name="twitter:title" content="编译原理上机(三) - 绘图器">
+  <meta name="twitter:description" content="编译原理上机(三) - 绘图器">
 
   
   <script type="application/ld+json">
@@ -83,26 +83,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Blogs",
-    "name": "编译原理上机(二) — 语法分析器",
-    "headline": "编译原理上机(二) — 语法分析器",
-    "description": "编译原理上机(二) - 语法分析器",
-    "abstract": "西电编译原理大作业 - 函数绘图语言编译器C\u002b\u002b实现 - Part 2 - 语法分析器",
+    "name": "编译原理上机(三) - 绘图器",
+    "headline": "编译原理上机(三) - 绘图器",
+    "description": "编译原理上机(三) - 绘图器",
+    "abstract": "西电编译原理大作业 - 函数绘图语言编译器C\u002b\u002b实现 - Part 3 - 绘图器",
     "inLanguage": "en",
-    "url" : "http:\/\/localhost:1313\/blogs\/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E4%B8%8A%E6%9C%BA%E4%BA%8C\/",
+    "url" : "https:\/\/www.enly.site\/blogs\/fglcompiler3\/",
     "author" : {
       "@type": "Person",
       "name": "Enly"
     },
     "copyrightYear": "2022",
-    "dateCreated": "2022-11-20T00:00:00\u002b00:00",
-    "datePublished": "2022-11-20T00:00:00\u002b00:00",
+    "dateCreated": "2022-11-21T00:00:00\u002b00:00",
+    "datePublished": "2022-11-21T00:00:00\u002b00:00",
     
-    "dateModified": "2022-11-20T00:00:00\u002b00:00",
+    "dateModified": "2022-11-21T00:00:00\u002b00:00",
     
     "keywords": ["编译原理"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "2248"
+    "wordCount": "1650"
   }]
   </script>
 
@@ -585,8 +585,8 @@
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/blogs/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E4%B8%8A%E6%9C%BA%E4%BA%8C/"
-      >编译原理上机(二) — 语法分析器</a
+      href="/blogs/fglcompiler3/"
+      >编译原理上机(三) - 绘图器</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -595,7 +595,7 @@
 
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      编译原理上机(二) — 语法分析器
+      编译原理上机(三) - 绘图器
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -638,7 +638,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2022-11-20 00:00:00 &#43;0000 UTC">2022/11/20</time><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2022-11-21 00:00:00 &#43;0000 UTC">2022/11/21</time><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -648,7 +648,7 @@
 
 <span class="mb-[2px]">
   <a
-    href="https://github.com/ZhanYirui/BlogSource/tree/main/blogs/%e7%bc%96%e8%af%91%e5%8e%9f%e7%90%86%e4%b8%8a%e6%9c%ba%28%e4%ba%8c%ef%bc%89/index.md"
+    href="https://github.com/ZhanYirui/BlogSource/tree/main/blogs/FGLCompiler3/index.md"
     class="text-lg hover:text-primary-500"
     rel="noopener noreferrer"
     target="_blank"
@@ -860,7 +860,7 @@
     class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#语法分析器完整代码"><strong>语法分析器完整代码</strong></a></li>
+    <li><a href="#绘图器完整代码"><strong>绘图器完整代码</strong></a></li>
   </ul>
 </nav>
   </div>
@@ -874,7 +874,7 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#语法分析器完整代码"><strong>语法分析器完整代码</strong></a></li>
+    <li><a href="#绘图器完整代码"><strong>绘图器完整代码</strong></a></li>
   </ul>
 </nav>
   </div>
@@ -891,14 +891,14 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          <p><strong>西电编译原理大作业 - 函数绘图语言编译器C++实现 - Part 2 - 语法分析器</strong></p>
-<p>author: En1y</p>
-<p>time:2022-11-19</p>
+          <p><strong>西电编译原理大作业 - 函数绘图语言编译器C++实现 - Part 3 - 绘图器</strong></p>
+<p>author:En1y</p>
+<p>time:2022-11-20</p>
 <p>school:Xidian university</p>
-<p><strong>第二部分:语法分析器(完整代码在结尾)</strong></p>
+<p><strong>第三部分:绘图器 (完整代码在最后)</strong></p>
 <blockquote>
 <p>测试文本:</p>
-<pre tabindex="0"><code>origin is (350,400);
+<pre tabindex="0"><code>Origin Is (350,400);
 scale is (10,10);
 rot is pi;
 for t from 0 to 2*pi step pi/10000 draw(16*sin(t)*sin(t)*sin(t),13*cos(t)-5*cos(2*t)-2*cos(3*t)-cos(4*t)); --桃心线
@@ -906,248 +906,126 @@ origin is (200,200);
 scale is (100,100);
 for t from 0 to 2*pi step pi/10000 draw(cos(t)*cos(t)*cos(t),sin(t)*sin(t)*sin(t)); --星型线
 </code></pre></blockquote>
-<p>
+<p>​    
 
 
 
 
   <figure>
-    <img class="my-0 rounded-md" loading="lazy" src="https://p.ipic.vip/ukp0v9.png" alt="img" />
+    <img class="my-0 rounded-md" loading="lazy" src="https://p.ipic.vip/58nucj.png" alt="img" />
     
   </figure>
 
-</p>
-<p>
-
-
-
-
-  <figure>
-    <img class="my-0 rounded-md" loading="lazy" src="https://p.ipic.vip/326d98.png" alt="img" />
-    
-  </figure>
-
-</p>
-<p>语法分析器的目的是<strong>判断词法分析器得到的记号是否合法，以及记号组成的句子是否合法。</strong></p>
-<blockquote>
-<p>语法分析器的设计思路:</p>
-<p>​    比如文本里装的是:</p>
-<p>​    ORIGIN IS (-16+5**3/cos(pi),2*120);</p>
-<p>​    我们通过第一部分的词法分析器就能得到一个记号流:</p>
-<p>​    ORIGIN IS L_BRACKET CONST_ID MUL CONST_ID COMMA CONST_ID MUL CONST_ID R_BRACKET SEMICO</p>
-<p>​    我们现在从记号流里面取出第一个记号ORIGIN，所以我们要匹配OriginStatement，继续取下一个记号，要想符合OriginStatement的语法，下一个记号应该匹配IS，如果下一个记号不能匹配IS，那就语法报错后退出；如果下一个记号匹配的是IS，我们就继续匹配，如果我们在匹配过程中取到了ERRTOKEN类型的记号，那么就词法报错后退出。</p>
-<p>​    所以设计思路就是:</p>
-<p>​    <strong>依次取记号，如果是ERRTOKEN类型就词法报错，如果匹配不了语法，那就语法报错。</strong></p>
-<p>​    需要注意到的是括号和逗号之间的是两个表达式，所以我们要设计一个表达式树结构，比如给的这个例子我们匹配完左括号之后，要生成一个表达式树来表示-16+5**3/cos(pi)。</p>
-</blockquote>
-<p>表达式树的节点可以分为三类:</p>
-<blockquote>
-<p>​     <strong>1.叶节点:  常数CONST_ID、参数T</strong></p>
-<p>​     <strong>2.有两个孩子的节点 也就是运算符节点:  加PLUS、减MINUS、乘MUL、除DIV、幂运算POWER (这时候有两个特例就是一元加和一元减，比如+5，这个+的左孩子就是NULL，右孩子是5，就将+5转换成5了；还有-5，这个-的左孩子就是0，右孩子就是5，就将-5转换成0-5了)</strong></p>
-<p>​     <strong>3.有一个孩子的节点 也就是函数节点:  函数FUNC</strong></p>
-</blockquote>
-<p>表达式树节点代码:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="k">typedef</span> <span class="nf">double</span> <span class="p">(</span><span class="o">*</span><span class="n">FuncPtr</span><span class="p">)(</span><span class="kt">double</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="k">struct</span> <span class="nc">ExprNode</span><span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="n">Token_Type</span> <span class="n">OpCode</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">union</span><span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="k">struct</span><span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="n">ExprNode</span> <span class="o">*</span><span class="n">Left</span><span class="p">,</span> <span class="o">*</span><span class="n">Right</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span> <span class="n">CaseOperator</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="k">struct</span><span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="n">ExprNode</span> <span class="o">*</span><span class="n">Child</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="n">FuncPtr</span> <span class="n">MathFuncPtr</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span><span class="n">CaseFunc</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="kt">double</span> <span class="n">CaseConst</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="kt">double</span> <span class="o">*</span><span class="n">CaseParmPtr</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span><span class="n">Content</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">};</span>
-</span></span></code></pre></div><p>表达式树节点的生成，本来我是根据匹配的记号类型的不同设计四个函数生成不同类型的节点，但是PPT上给出的利用可变列表生成节点的方法更简便，代码如下。 这段代码的意思是: 如果现在匹配的是常数CONST_ID类型，那我们传进去的肯定是常数的值value，我们就可以生成一个节点，这个节点的CaseConst指针指向常数的值；如果我们匹配的是参数T类型，那就生成一个节点，这个节点的CaseParmPtr指针指向Parameter；如果我们匹配的是函数FUNC类型，那我们传进去的肯定是一个函数指针以及一个表达式树节点，那就可以生成一个节点，这个节点的MathFuncPtr指针指向传入的函数，Child孩子指针指向传入的表达式树节点；如果我们匹配的是运算符例如PLUS/MINUS这些类型，那我们传进去的肯定是两个表达式节点，那就可以生成一个节点，这个节点的Left左孩子指针指向传入的第一个节点，Right右孩子指针指向传入的第二个节点。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="k">struct</span> <span class="nc">ExprNode</span><span class="o">*</span> <span class="nf">MakeExprNode</span><span class="p">(</span><span class="n">Token_Type</span> <span class="n">opcode</span><span class="p">,...){</span>
-</span></span><span class="line"><span class="cl">        <span class="k">struct</span> <span class="nc">ExprNode</span> <span class="o">*</span><span class="n">ExprPtr</span> <span class="o">=</span> <span class="k">new</span> <span class="p">(</span><span class="k">struct</span> <span class="nc">ExprNode</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">ExprPtr</span> <span class="o">-&gt;</span> <span class="n">OpCode</span> <span class="o">=</span> <span class="n">opcode</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">va_list</span> <span class="n">ArgPtr</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">va_start</span><span class="p">(</span><span class="n">ArgPtr</span><span class="p">,</span><span class="n">opcode</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="k">switch</span> <span class="p">(</span><span class="n">opcode</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">CONST_ID</span><span class="p">:</span><span class="n">ExprPtr</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseConst</span> <span class="o">=</span><span class="p">(</span><span class="kt">double</span><span class="p">)</span> <span class="n">va_arg</span><span class="p">(</span><span class="n">ArgPtr</span><span class="p">,</span><span class="kt">double</span> <span class="p">);</span><span class="k">break</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">T</span><span class="p">:</span><span class="n">ExprPtr</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseParmPtr</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">Parameter</span><span class="p">;</span><span class="k">break</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">FUNC</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">                <span class="n">ExprPtr</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseFunc</span><span class="p">.</span><span class="n">MathFuncPtr</span> <span class="o">=</span> <span class="p">(</span><span class="n">FuncPtr</span><span class="p">)</span> <span class="n">va_arg</span><span class="p">(</span><span class="n">ArgPtr</span><span class="p">,</span><span class="n">FuncPtr</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">                <span class="n">ExprPtr</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseFunc</span><span class="p">.</span><span class="n">Child</span> <span class="o">=</span> <span class="p">(</span><span class="k">struct</span> <span class="nc">ExprNode</span><span class="o">*</span><span class="p">)</span> <span class="n">va_arg</span><span class="p">(</span><span class="n">ArgPtr</span><span class="p">,</span><span class="k">struct</span> <span class="nc">ExprNode</span><span class="o">*</span><span class="p">);</span><span class="k">break</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="k">default</span><span class="o">:</span>
-</span></span><span class="line"><span class="cl">                <span class="n">ExprPtr</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Left</span> <span class="o">=</span> <span class="p">(</span><span class="k">struct</span> <span class="nc">ExprNode</span><span class="o">*</span><span class="p">)</span> <span class="n">va_arg</span><span class="p">(</span><span class="n">ArgPtr</span><span class="p">,</span><span class="k">struct</span> <span class="nc">ExprNode</span><span class="o">*</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">                <span class="n">ExprPtr</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Right</span> <span class="o">=</span> <span class="p">(</span><span class="k">struct</span> <span class="nc">ExprNode</span><span class="o">*</span><span class="p">)</span> <span class="n">va_arg</span><span class="p">(</span><span class="n">ArgPtr</span><span class="p">,</span><span class="k">struct</span> <span class="nc">ExprNode</span><span class="o">*</span><span class="p">);</span><span class="k">break</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">        <span class="n">va_end</span><span class="p">(</span><span class="n">ArgPtr</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">ExprPtr</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>利用递归进行表达式树的打印，注意一下，上面两段代码都是表达式树的节点的设计和生成，下面的代码是打印一整棵表达式树。通过递归先序遍历打印表达式树：传入表达式树的根节点，如果节点类型是CONST_ID那就说明这个节点只有CaseConst指针有值，打印CaseConst指针指向的值；如果节点类型是T那就打印&quot;T&quot;；如果节点类型是FUNC那就说明这个节点的MathFuncPtr和Child指针有值，先根据MathFuncPtr指向的函数打印函数的名称，然后用递归打印以孩子节点作为根节点的子树；如果节点类型是运算符，那就先打印运算符，然后递归打印分别以左右孩子节点为根节点的两棵子树。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">OutExprNode</span><span class="p">(</span><span class="k">struct</span> <span class="nc">ExprNode</span><span class="o">*</span> <span class="n">Tree</span><span class="p">){</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;</span><span class="se">\t\t</span><span class="s">&#34;</span><span class="p">;</span>
+绘图器的代码是在第二部分语法分析器的基础上改编来的。</p>
+<p>首先我们把第二部分语法分析器Parsers类里面的Parser()、Program()&hellip;、ForStatement()成员函数里面的&quot;enter in&quot;、&ldquo;exit from&quot;以及&quot;matchtoken&quot;语句删除。</p>
+<p>在Parsers类的OriginStatement()、ScaleStatement()、RotStatement()、ForStatement()函数里面，我们得到了很多棵表达式树，在语法分析器里面我们是将它们用OutExprNode()函数先序遍历打印出来的，但是在绘图器里面，我们不需要把表达式树打印出来，我们需要表达式树它最终求出来的值，所以我们要把OutExprNode()函数改成GetExpValue()函数，两个函数很相似都是利用递归，我在语法分析器里已经分析过了，下面直接给出GetExpValue()函数的代码:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="kt">double</span> <span class="nf">GetExpValue</span><span class="p">(</span><span class="k">struct</span> <span class="nc">ExprNode</span><span class="o">*</span> <span class="n">Tree</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">Tree</span> <span class="o">==</span> <span class="nb">NULL</span><span class="p">)</span> <span class="k">return</span> <span class="mf">0.0</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="k">switch</span> <span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">OpCode</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">CONST_ID</span><span class="p">:</span> <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseConst</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span><span class="k">break</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">T</span><span class="p">:</span> <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;T&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span><span class="k">break</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">FUNC</span><span class="p">:{</span>
-</span></span><span class="line"><span class="cl">                <span class="k">if</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseFunc</span><span class="p">.</span><span class="n">MathFuncPtr</span> <span class="o">=</span> <span class="n">sin</span><span class="p">){</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;sin&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;}</span>
-</span></span><span class="line"><span class="cl">                <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseFunc</span><span class="p">.</span><span class="n">MathFuncPtr</span> <span class="o">=</span> <span class="n">cos</span><span class="p">){</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;cos&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;}</span>
-</span></span><span class="line"><span class="cl">                <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseFunc</span><span class="p">.</span><span class="n">MathFuncPtr</span> <span class="o">=</span> <span class="n">log</span><span class="p">){</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;log&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;}</span>
-</span></span><span class="line"><span class="cl">                <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseFunc</span><span class="p">.</span><span class="n">MathFuncPtr</span> <span class="o">=</span> <span class="n">exp</span><span class="p">){</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;exp&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;}</span>
-</span></span><span class="line"><span class="cl">                <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseFunc</span><span class="p">.</span><span class="n">MathFuncPtr</span> <span class="o">=</span> <span class="n">tan</span><span class="p">){</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;tan&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;}</span>
-</span></span><span class="line"><span class="cl">                <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseFunc</span><span class="p">.</span><span class="n">MathFuncPtr</span> <span class="o">=</span> <span class="n">sqrt</span><span class="p">){</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;sqrt&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;}</span>
-</span></span><span class="line"><span class="cl">                <span class="n">OutExprNode</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseFunc</span><span class="p">.</span><span class="n">Child</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">            <span class="p">}</span><span class="k">break</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">PLUS</span><span class="p">:{</span>
-</span></span><span class="line"><span class="cl">                <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;+&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">                <span class="n">OutExprNode</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Left</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">                <span class="n">OutExprNode</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Right</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">            <span class="p">}</span><span class="k">break</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">MINUS</span><span class="p">:{</span>
-</span></span><span class="line"><span class="cl">                <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;-&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">                <span class="n">OutExprNode</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Left</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">                <span class="n">OutExprNode</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Right</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">            <span class="p">}</span><span class="k">break</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">MUL</span><span class="p">:{</span>
-</span></span><span class="line"><span class="cl">                <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;*&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">                <span class="n">OutExprNode</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Left</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">                <span class="n">OutExprNode</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Right</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">            <span class="p">}</span><span class="k">break</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">DIV</span><span class="p">:{</span>
-</span></span><span class="line"><span class="cl">                <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;/&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">                <span class="n">OutExprNode</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Left</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">                <span class="n">OutExprNode</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Right</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">            <span class="p">}</span><span class="k">break</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">POWER</span><span class="p">:{</span>
-</span></span><span class="line"><span class="cl">                <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;**&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">                <span class="n">OutExprNode</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Left</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">                <span class="n">OutExprNode</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Right</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">            <span class="p">}</span><span class="k">break</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span></code></pre></div><blockquote>
-<p>绘图语言的文法:</p>
-<p>Program -&gt; { Statement SEMICO }</p>
-<p>Statement -&gt; OriginStatement | ScaleStatement | RotStatement | ForStatement</p>
-<p>OriginStatement -&gt; ORIGIN IS L_BRACKET Expression COMMA Expression R_BRACKET</p>
-<p>ScaleStatement -&gt; SCALE IS L_BRACKET Expression COMMA Expression R_BRACKET</p>
-<p>RotStatement -&gt; ROT IS Expression</p>
-<p>ForStatement -&gt; FOR T FROM Expression TO Expression STEP Expression DRAW L_BRACKET Expression COMMA Expression R_BRACKET</p>
-</blockquote>
-<blockquote>
-<p>表达式树的产生式:</p>
-<p>Expression -&gt; Term { ( PLUS | MINUS ) Term }</p>
-<p>Term -&gt; Factor { ( MUL | DIV ) Factor }</p>
-<p>Factor -&gt; PLUS Factor | MINUS Factor | Component</p>
-<p>Component -&gt; Atom POWER Component | Atom</p>
-<p>Atom -&gt; CONST_ID | T | FUNC L_BRACKET Expression R_BRACKET | L_BRACKET Expression R_BRACKET</p>
-</blockquote>
-<p>根据绘图语言文法和表达式树的产生式，我们可以设计一个Parsers类，在类里利用迭代实现文法和表达式树的产生。</p>
-<p>Parsers类里我们首先定义一个构造函数 Parsers(){LoadFileTokens();} 作用是当我们创建一个Parsers类实例的时候自动调用LoadFileTokens()函数将文本的记号流装到容器里。</p>
-<p>先写三个辅助函数</p>
-<blockquote>
-<p><strong>void FetchToken();</strong></p>
-<p><strong>void MatchToken(Token_Type t);</strong></p>
-<p><strong>void SyntaxError(int x);</strong></p>
-</blockquote>
-<p>void FetchToken();  这个函数的作用是从记号流里获取一个记号，如果获取的记号是ERRTOKEN类，就词法报错后退出</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">FetchToken</span><span class="p">(){</span>
-</span></span><span class="line"><span class="cl">        <span class="n">TempToken</span> <span class="o">=</span> <span class="n">TokenStream</span><span class="p">[</span><span class="n">cnt</span><span class="p">];</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cnt</span> <span class="o">++</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span><span class="p">(</span><span class="n">TempToken</span><span class="p">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">ERRTOKEN</span><span class="p">)</span> <span class="n">SyntaxError</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>void MatchToken(Token_Type t);  这个函数的参数是一个单词类型，作用是将当前从记号流里获取的记号和这个单词类型进行匹配，如果不匹配就语法报错后退出，否则就获取下一个记号</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">MatchToken</span><span class="p">(</span><span class="n">Token_Type</span> <span class="n">t</span><span class="p">){</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span><span class="p">(</span><span class="n">TempToken</span><span class="p">.</span><span class="n">type</span> <span class="o">!=</span> <span class="n">t</span><span class="p">)</span> <span class="n">SyntaxError</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">FetchToken</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>void SyntaxError(int x);  这个函数的参数是一个整数，如果整数是1就代表词法错误，如果整数是2就代表语法错误</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">SyntaxError</span><span class="p">(</span><span class="kt">int</span> <span class="n">x</span><span class="p">){</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span><span class="p">(</span><span class="n">x</span> <span class="o">==</span> <span class="mi">1</span><span class="p">){</span>
-</span></span><span class="line"><span class="cl">            <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;line No: &#34;</span> <span class="o">&lt;&lt;</span> <span class="n">TempToken</span><span class="p">.</span><span class="n">TokenLine</span> <span class="o">&lt;&lt;</span> <span class="s">&#34; 有一个错误记号: &#34;</span> <span class="o">&lt;&lt;</span> <span class="n">TempToken</span><span class="p">.</span><span class="n">lexeme</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">        <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">x</span> <span class="o">==</span> <span class="mi">2</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;line No: &#34;</span> <span class="o">&lt;&lt;</span> <span class="n">TempToken</span><span class="p">.</span><span class="n">TokenLine</span> <span class="o">&lt;&lt;</span> <span class="s">&#34; 有一个不是预期的记号: &#34;</span> <span class="o">&lt;&lt;</span> <span class="n">TempToken</span><span class="p">.</span><span class="n">lexeme</span>  <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">PLUS</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Left</span><span class="p">)</span> <span class="o">+</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Right</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">MINUS</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Left</span><span class="p">)</span> <span class="o">-</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Right</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">MUL</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Left</span><span class="p">)</span> <span class="o">*</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Right</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">DIV</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Left</span><span class="p">)</span> <span class="o">/</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Right</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">POWER</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">pow</span><span class="p">(</span><span class="n">GetExpValue</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Left</span><span class="p">),</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Right</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">FUNC</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseFunc</span><span class="p">.</span><span class="n">MathFuncPtr</span><span class="p">(</span><span class="n">GetExpValue</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseFunc</span><span class="p">.</span><span class="n">Child</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">CONST_ID</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseConst</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">T</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="o">*</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseParmPtr</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="k">default</span><span class="o">:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="mf">0.0</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>根据上面给出的文法和表达式树的产生式，我们利用迭代实现文法和表达式树的生成，我们需要下列函数</p>
-<blockquote>
-<p><strong>void Parser();</strong></p>
-<p><strong>void Program();</strong></p>
-<p><strong>void Statement();</strong></p>
-<p><strong>void OriginStatement();</strong></p>
-<p><strong>void ScaleStatement();</strong></p>
-<p><strong>void ForStatement();</strong></p>
-<p><strong>void RotStatement();</strong></p>
-<p><strong>struct ExprNode* Expression();</strong></p>
-<p><strong>struct ExprNode* Term();</strong></p>
-<p><strong>struct ExprNode* Factor();</strong></p>
-<p><strong>struct ExprNode* Component();</strong></p>
-<p><strong>struct ExprNode* Atom();</strong></p>
-</blockquote>
-<p>Parser()函数获取第一个记号，然后进入Program()函数</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">Parser</span><span class="p">(){</span>
-</span></span><span class="line"><span class="cl">        <span class="n">FetchToken</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">        <span class="n">Program</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>根据上述文法 Program -&gt; { Statement SEMICO }</p>
-<p>我们写一个 Program()函数，如下:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">Program</span><span class="p">(){</span>
-</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="p">(</span><span class="n">TempToken</span><span class="p">.</span><span class="n">type</span> <span class="o">!=</span> <span class="n">NONTOKEN</span><span class="p">){</span>
-</span></span><span class="line"><span class="cl">            <span class="n">Statement</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">            <span class="n">MatchToken</span><span class="p">(</span><span class="n">SEMICO</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>根据上述文法 Statement -&gt; OriginStatement | ScaleStatement | RotStatement | ForStatement</p>
-<p>我们写一个Statement()函数，如下:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">Statement</span><span class="p">(){</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span><span class="p">(</span><span class="n">TempToken</span><span class="p">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">ORIGIN</span><span class="p">)</span> <span class="n">OriginStatement</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">        <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">TempToken</span><span class="p">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">SCALE</span><span class="p">)</span> <span class="n">ScaleStatement</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">        <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">TempToken</span><span class="p">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">ROT</span><span class="p">)</span> <span class="n">RotStatement</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">        <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">TempToken</span><span class="p">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">FOR</span><span class="p">)</span> <span class="n">ForStatement</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">        <span class="k">else</span> <span class="n">SyntaxError</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>根据上述文法 OriginStatement -&gt; ORIGIN IS L_BRACKET Expression COMMA Expression R_BRACKET</p>
-<p>我们写一个OriginStatement()函数，如下：// ScaleStatement()、RotStatement()、ForStatement()这三个函数根据上述文法可以类比OriginStatement()函数写一下</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">OriginStatement</span><span class="p">(){</span>
-</span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">ORIGIN</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">IS</span><span class="p">);</span>
+</span></span></code></pre></div><p>我们将语法分析器中的OutExprNode()函数换成GetExpValue()函数，这时候我们就能得到原点平移的横纵坐标的值origin_x和origin_y，横纵坐标放缩的值scale_x和scale_y，旋转的弧度值rot_ang，绘图时候参数T的起始值start、结束值end和步长step，但是现在注意了，FOR语句后面括号里面那两棵表达式树(struct ExprNode*)for_xptr,for_yptr里面带有参数T，所以我们不能直接在ForStatement()函数里面将这两棵表达式树的值求出来，而且根据要求，文件中Origin、Scale、Rot语句只影响它们后面的For语句，而且一个文件里面可以有多个FOR语句，所以我们在获得FOR语句括号里的两棵表达式树之后，我们要拿七个double容器将origin_x,origin_y,scale_x,scale_y,start,end,step装起来，拿两个struct ExprNode*容器将for_xptr和for_yptr装起来，这个时候这九个容器同一个下标里的内容就可以画出一个图形，ForStatement()函数改编后如下:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl">   <span class="kt">void</span> <span class="nf">ForStatement</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">FOR</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">T</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">FROM</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">start_ptr</span> <span class="o">=</span> <span class="n">Expression</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">start</span> <span class="o">=</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">start_ptr</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">TO</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">end_ptr</span> <span class="o">=</span> <span class="n">Expression</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">end</span> <span class="o">=</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">end_ptr</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">STEP</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">step_ptr</span> <span class="o">=</span> <span class="n">Expression</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">step</span> <span class="o">=</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">step_ptr</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">DRAW</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">L_BRACKET</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">origin_xptr</span> <span class="o">=</span> <span class="n">Expression</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">for_xptr</span> <span class="o">=</span> <span class="n">Expression</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">For_X</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">for_xptr</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">COMMA</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">origin_yptr</span> <span class="o">=</span> <span class="n">Expression</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">for_yptr</span> <span class="o">=</span> <span class="n">Expression</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">For_Y</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">for_yptr</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Origin_X</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">origin_x</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Origin_Y</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">origin_y</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Scale_X</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">scale_x</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Scale_Y</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">scale_y</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Rot_ang</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">rot_ang</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Start</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">start</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">End</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">end</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Step</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">step</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">R_BRACKET</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>根据上面表达式树的产生式第一条</p>
-<p>Expression -&gt; Term { ( PLUS | MINUS ) Term }</p>
-<p>写一个struct ExprNode* Expression()函数，如下:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="k">struct</span> <span class="nc">ExprNode</span><span class="o">*</span> <span class="nf">Expression</span><span class="p">(){</span>
-</span></span><span class="line"><span class="cl">        <span class="k">struct</span> <span class="nc">ExprNode</span> <span class="o">*</span><span class="n">left</span><span class="p">,</span> <span class="o">*</span><span class="n">right</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">Token_Type</span> <span class="n">token_tmp</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">left</span> <span class="o">=</span> <span class="n">Term</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="p">(</span><span class="n">TempToken</span><span class="p">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">PLUS</span> <span class="o">||</span> <span class="n">TempToken</span><span class="p">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">MINUS</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="n">token_tmp</span> <span class="o">=</span> <span class="n">TempToken</span><span class="p">.</span><span class="n">type</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="n">MatchToken</span><span class="p">(</span><span class="n">token_tmp</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">            <span class="n">right</span> <span class="o">=</span> <span class="n">Term</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">            <span class="n">left</span> <span class="o">=</span> <span class="n">MakeExprNode</span><span class="p">(</span><span class="n">token_tmp</span><span class="p">,</span><span class="n">left</span><span class="p">,</span><span class="n">right</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">left</span><span class="p">;</span>
+</span></span></code></pre></div><p>现在我们有九个容器，每个容器都装着图形的一个参数，下一步就是来画图了。</p>
+<p>我利用的是EasyX，Clion下EasyX的配置教程参考:<a href="https://blog.csdn.net/qq_32939413/article/details/125393910"   target="_blank">
+    (8条消息) 在Clion中使用EasyX配置_Shine.Zhang的博客-CSDN博客</a></p>
+<p>只要能用&lt;graphics.h&gt;库就行了，各位自己去寻找导入方法吧。</p>
+<p>接下来先写一个画单个点的函数void DrawXY(double for_x, double for_y, double origin_x, double origin_y, double scale_x, double scale_y, double rot_ang)，传进去的是点的坐标、横纵坐标平移值、横纵坐标拉伸值以及旋转弧度值，代码如下:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">DrawXY</span><span class="p">(</span><span class="kt">double</span> <span class="n">for_x</span><span class="p">,</span> <span class="kt">double</span> <span class="n">for_y</span><span class="p">,</span> <span class="kt">double</span> <span class="n">origin_x</span><span class="p">,</span><span class="kt">double</span> <span class="n">origin_y</span><span class="p">,</span><span class="kt">double</span> <span class="n">scale_x</span><span class="p">,</span><span class="kt">double</span> <span class="n">scale_y</span><span class="p">,</span><span class="kt">double</span> <span class="n">rot_ang</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">double</span> <span class="n">tempx</span><span class="p">,</span> <span class="n">tempy</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">for_x</span> <span class="o">*=</span> <span class="n">scale_x</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">for_y</span> <span class="o">*=</span> <span class="n">scale_y</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">tempx</span> <span class="o">=</span> <span class="n">for_x</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">tempy</span> <span class="o">=</span> <span class="n">for_y</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">for_x</span> <span class="o">=</span> <span class="n">tempx</span> <span class="o">*</span> <span class="n">cos</span><span class="p">(</span><span class="n">rot_ang</span><span class="p">)</span> <span class="o">+</span> <span class="n">tempy</span> <span class="o">*</span> <span class="n">sin</span><span class="p">(</span><span class="n">rot_ang</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">for_y</span> <span class="o">=</span> <span class="n">tempy</span> <span class="o">*</span> <span class="n">cos</span><span class="p">(</span><span class="n">rot_ang</span><span class="p">)</span> <span class="o">-</span> <span class="n">tempx</span> <span class="o">*</span> <span class="n">sin</span><span class="p">(</span><span class="n">rot_ang</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">for_x</span> <span class="o">+=</span>  <span class="n">origin_x</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">for_y</span> <span class="o">+=</span>  <span class="n">origin_y</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">putpixel</span><span class="p">(</span><span class="n">for_x</span><span class="p">,</span><span class="n">for_y</span><span class="p">,</span><span class="n">RGB</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span><span class="mi">255</span><span class="p">,</span><span class="mi">255</span><span class="p">));</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>其他表达式树生成函数跟Expression()函数类似，根据上面表达式树的产生式可以类比Expression()函数依次写出来，不想分析了，放在底下完整代码里了，第二部分语法分析器结束。</p>
+</span></span></code></pre></div><p>上面这段代码先将横纵坐标分别乘横纵坐标拉伸值，再根据旋转的规则:旋转后横坐标=旋转前横坐标<em>cos(旋转弧度)+旋转前纵坐标</em>sin(旋转弧度)，旋转后纵坐标=旋转前纵坐标<em>cos(旋转弧度)-旋转前横坐标</em>sin(旋转弧度) 将旋转后的横纵坐标求出来，再分别加上横纵坐标平移值，就得到了操作后的点，最后用putpixel()函数将点画出来。</p>
+<p>接下来我们就要通过循环令Parameter变量不断变化从而画出所有点，DrawTotalXY函数如下:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">DrawTotalXY</span><span class="p">(</span><span class="n">Parsers</span> <span class="n">P</span><span class="p">,</span> <span class="kt">double</span> <span class="n">Origin_X</span><span class="p">,</span><span class="kt">double</span> <span class="n">Origin_Y</span><span class="p">,</span><span class="kt">double</span> <span class="n">Scale_X</span><span class="p">,</span><span class="kt">double</span> <span class="n">Scale_Y</span><span class="p">,</span><span class="kt">double</span> <span class="n">Rot_ang</span><span class="p">,</span> <span class="kt">double</span> <span class="n">Start</span><span class="p">,</span> <span class="kt">double</span> <span class="n">End</span><span class="p">,</span> <span class="kt">double</span> <span class="n">Step</span><span class="p">,</span> <span class="k">struct</span> <span class="nc">ExprNode</span><span class="o">*</span> <span class="n">For_X</span><span class="p">,</span> <span class="k">struct</span> <span class="nc">ExprNode</span><span class="o">*</span> <span class="n">For_Y</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">double</span> <span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Parameter</span> <span class="o">=</span> <span class="n">Start</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">Step</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="p">(</span><span class="n">Parameter</span> <span class="o">&lt;=</span> <span class="n">End</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">x</span> <span class="o">=</span> <span class="n">P</span><span class="p">.</span><span class="n">GetExpValue</span><span class="p">(</span><span class="n">For_X</span><span class="p">)</span> <span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="n">y</span> <span class="o">=</span> <span class="n">P</span><span class="p">.</span><span class="n">GetExpValue</span><span class="p">(</span><span class="n">For_Y</span><span class="p">)</span> <span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="n">DrawXY</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">Origin_X</span><span class="p">,</span><span class="n">Origin_Y</span><span class="p">,</span><span class="n">Scale_X</span><span class="p">,</span><span class="n">Scale_Y</span><span class="p">,</span><span class="n">Rot_ang</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Parameter</span> <span class="o">+=</span> <span class="n">Step</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">Step</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="p">(</span><span class="n">Parameter</span> <span class="o">&gt;=</span> <span class="n">End</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">x</span> <span class="o">=</span> <span class="n">P</span><span class="p">.</span><span class="n">GetExpValue</span><span class="p">(</span><span class="n">For_X</span><span class="p">)</span> <span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="n">y</span> <span class="o">=</span> <span class="n">P</span><span class="p">.</span><span class="n">GetExpValue</span><span class="p">(</span><span class="n">For_Y</span><span class="p">)</span> <span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="n">DrawXY</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">Origin_X</span><span class="p">,</span><span class="n">Origin_Y</span><span class="p">,</span><span class="n">Scale_X</span><span class="p">,</span><span class="n">Scale_Y</span><span class="p">,</span><span class="n">Rot_ang</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Parameter</span> <span class="o">+=</span> <span class="n">Step</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>最后在main函数里面，我们通过下标从九个容器中取参数传到DrawTotalX函数里面画出所有的图像即可，完整代码如下，绘图器部分就完成了，这次上机也完成了。</p>
 
 
-<h2 class="relative group"><strong>语法分析器完整代码</strong> 
-    <div id="%E8%AF%AD%E6%B3%95%E5%88%86%E6%9E%90%E5%99%A8%E5%AE%8C%E6%95%B4%E4%BB%A3%E7%A0%81" class="anchor"></div>
+<h2 class="relative group"><strong>绘图器完整代码</strong> 
+    <div id="%E7%BB%98%E5%9B%BE%E5%99%A8%E5%AE%8C%E6%95%B4%E4%BB%A3%E7%A0%81" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E8%AF%AD%E6%B3%95%E5%88%86%E6%9E%90%E5%99%A8%E5%AE%8C%E6%95%B4%E4%BB%A3%E7%A0%81" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#%E7%BB%98%E5%9B%BE%E5%99%A8%E5%AE%8C%E6%95%B4%E4%BB%A3%E7%A0%81" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;cmath&gt;</span><span class="cp">
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;cmath&gt;</span><span class="cp">
 </span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;cctype&gt;</span><span class="cp">
 </span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;fstream&gt;</span><span class="cp">
 </span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;string&gt;</span><span class="cp">
@@ -1395,11 +1273,22 @@ for t from 0 to 2*pi step pi/10000 draw(cos(t)*cos(t)*cos(t),sin(t)*sin(t)*sin(t
 </span></span><span class="line"><span class="cl">    <span class="p">}</span><span class="n">Content</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span>
 </span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">vector</span><span class="o">&lt;</span><span class="kt">double</span><span class="o">&gt;</span> <span class="n">Origin_X</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">vector</span><span class="o">&lt;</span><span class="kt">double</span><span class="o">&gt;</span> <span class="n">Origin_Y</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">vector</span><span class="o">&lt;</span><span class="kt">double</span><span class="o">&gt;</span> <span class="n">Scale_X</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">vector</span><span class="o">&lt;</span><span class="kt">double</span><span class="o">&gt;</span> <span class="n">Scale_Y</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">vector</span><span class="o">&lt;</span><span class="kt">double</span><span class="o">&gt;</span> <span class="n">Rot_ang</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">vector</span><span class="o">&lt;</span><span class="kt">double</span><span class="o">&gt;</span> <span class="n">Start</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">vector</span><span class="o">&lt;</span><span class="kt">double</span><span class="o">&gt;</span> <span class="n">End</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">vector</span><span class="o">&lt;</span><span class="kt">double</span><span class="o">&gt;</span> <span class="n">Step</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">vector</span><span class="o">&lt;</span><span class="k">struct</span> <span class="nc">ExprNode</span><span class="o">*&gt;</span> <span class="n">For_X</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">vector</span><span class="o">&lt;</span><span class="k">struct</span> <span class="nc">ExprNode</span><span class="o">*&gt;</span> <span class="n">For_Y</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Parsers</span><span class="p">{</span>
 </span></span><span class="line"><span class="cl"><span class="k">public</span><span class="o">:</span>
 </span></span><span class="line"><span class="cl">    <span class="n">Parsers</span><span class="p">(){</span><span class="n">LoadFileTokens</span><span class="p">();}</span>
-</span></span><span class="line"><span class="cl">    <span class="kt">double</span> <span class="n">Parameter</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="k">struct</span> <span class="nc">ExprNode</span>  <span class="o">*</span><span class="n">origin_xptr</span><span class="p">,</span> <span class="o">*</span><span class="n">origin_yptr</span><span class="p">,</span> <span class="o">*</span><span class="n">scale_xptr</span><span class="p">,</span> <span class="o">*</span><span class="n">scale_yptr</span><span class="p">,</span> <span class="o">*</span><span class="n">rot_ptr</span><span class="p">,</span> <span class="o">*</span><span class="n">start_ptr</span><span class="p">,</span> <span class="o">*</span><span class="n">end_ptr</span><span class="p">,</span> <span class="o">*</span><span class="n">step_ptr</span><span class="p">,</span> <span class="o">*</span><span class="n">for_xptr</span><span class="p">,</span> <span class="o">*</span><span class="n">for_yptr</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">double</span> <span class="n">Parameter</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">origin_x</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">origin_y</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">scale_x</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">scale_y</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">rot_ang</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="n">step</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="k">static</span> <span class="kt">int</span> <span class="n">cnt</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="n">Tokens</span> <span class="n">TempToken</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="k">struct</span> <span class="nc">ExprNode</span><span class="o">*</span> <span class="nf">MakeExprNode</span><span class="p">(</span><span class="n">Token_Type</span> <span class="n">opcode</span><span class="p">,...){</span>
@@ -1420,45 +1309,27 @@ for t from 0 to 2*pi step pi/10000 draw(cos(t)*cos(t)*cos(t),sin(t)*sin(t)*sin(t
 </span></span><span class="line"><span class="cl">        <span class="n">va_end</span><span class="p">(</span><span class="n">ArgPtr</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">ExprPtr</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="kt">void</span> <span class="nf">OutExprNode</span><span class="p">(</span><span class="k">struct</span> <span class="nc">ExprNode</span><span class="o">*</span> <span class="n">Tree</span><span class="p">){</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;</span><span class="se">\t\t</span><span class="s">&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">double</span> <span class="nf">GetExpValue</span><span class="p">(</span><span class="k">struct</span> <span class="nc">ExprNode</span><span class="o">*</span> <span class="n">Tree</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">Tree</span> <span class="o">==</span> <span class="nb">NULL</span><span class="p">)</span> <span class="k">return</span> <span class="mf">0.0</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="k">switch</span> <span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">OpCode</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">CONST_ID</span><span class="p">:</span> <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseConst</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span><span class="k">break</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">T</span><span class="p">:</span> <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;T&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span><span class="k">break</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">FUNC</span><span class="p">:{</span>
-</span></span><span class="line"><span class="cl">                <span class="k">if</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseFunc</span><span class="p">.</span><span class="n">MathFuncPtr</span> <span class="o">=</span> <span class="n">sin</span><span class="p">){</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;sin&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;}</span>
-</span></span><span class="line"><span class="cl">                <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseFunc</span><span class="p">.</span><span class="n">MathFuncPtr</span> <span class="o">=</span> <span class="n">cos</span><span class="p">){</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;cos&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;}</span>
-</span></span><span class="line"><span class="cl">                <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseFunc</span><span class="p">.</span><span class="n">MathFuncPtr</span> <span class="o">=</span> <span class="n">log</span><span class="p">){</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;log&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;}</span>
-</span></span><span class="line"><span class="cl">                <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseFunc</span><span class="p">.</span><span class="n">MathFuncPtr</span> <span class="o">=</span> <span class="n">exp</span><span class="p">){</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;exp&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;}</span>
-</span></span><span class="line"><span class="cl">                <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseFunc</span><span class="p">.</span><span class="n">MathFuncPtr</span> <span class="o">=</span> <span class="n">tan</span><span class="p">){</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;tan&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;}</span>
-</span></span><span class="line"><span class="cl">                <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseFunc</span><span class="p">.</span><span class="n">MathFuncPtr</span> <span class="o">=</span> <span class="n">sqrt</span><span class="p">){</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;sqrt&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;}</span>
-</span></span><span class="line"><span class="cl">                <span class="n">OutExprNode</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseFunc</span><span class="p">.</span><span class="n">Child</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">            <span class="p">}</span><span class="k">break</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">PLUS</span><span class="p">:{</span>
-</span></span><span class="line"><span class="cl">                <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;+&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">                <span class="n">OutExprNode</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Left</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">                <span class="n">OutExprNode</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Right</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">            <span class="p">}</span><span class="k">break</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">MINUS</span><span class="p">:{</span>
-</span></span><span class="line"><span class="cl">                <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;-&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">                <span class="n">OutExprNode</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Left</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">                <span class="n">OutExprNode</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Right</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">            <span class="p">}</span><span class="k">break</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">MUL</span><span class="p">:{</span>
-</span></span><span class="line"><span class="cl">                <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;*&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">                <span class="n">OutExprNode</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Left</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">                <span class="n">OutExprNode</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Right</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">            <span class="p">}</span><span class="k">break</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">DIV</span><span class="p">:{</span>
-</span></span><span class="line"><span class="cl">                <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;/&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">                <span class="n">OutExprNode</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Left</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">                <span class="n">OutExprNode</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Right</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">            <span class="p">}</span><span class="k">break</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">POWER</span><span class="p">:{</span>
-</span></span><span class="line"><span class="cl">                <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;**&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">                <span class="n">OutExprNode</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Left</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">                <span class="n">OutExprNode</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Right</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">            <span class="p">}</span><span class="k">break</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">PLUS</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Left</span><span class="p">)</span> <span class="o">+</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Right</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">MINUS</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Left</span><span class="p">)</span> <span class="o">-</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Right</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">MUL</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Left</span><span class="p">)</span> <span class="o">*</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Right</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">DIV</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Left</span><span class="p">)</span> <span class="o">/</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Right</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">POWER</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">pow</span><span class="p">(</span><span class="n">GetExpValue</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Left</span><span class="p">),</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseOperator</span><span class="p">.</span><span class="n">Right</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">FUNC</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseFunc</span><span class="p">.</span><span class="n">MathFuncPtr</span><span class="p">(</span><span class="n">GetExpValue</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseFunc</span><span class="p">.</span><span class="n">Child</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">CONST_ID</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseConst</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="k">case</span> <span class="nl">T</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="o">*</span><span class="p">(</span><span class="n">Tree</span><span class="o">-&gt;</span><span class="n">Content</span><span class="p">.</span><span class="n">CaseParmPtr</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="k">default</span><span class="o">:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="mf">0.0</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="kt">void</span> <span class="nf">FetchToken</span><span class="p">(){</span>
@@ -1481,126 +1352,75 @@ for t from 0 to 2*pi step pi/10000 draw(cos(t)*cos(t)*cos(t),sin(t)*sin(t)*sin(t
 </span></span><span class="line"><span class="cl">        <span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="kt">void</span> <span class="nf">Parser</span><span class="p">(){</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;enter in Parser&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="n">FetchToken</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">        <span class="n">Program</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;exit from Parser&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="kt">void</span> <span class="nf">Program</span><span class="p">(){</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;enter in Program&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="p">(</span><span class="n">TempToken</span><span class="p">.</span><span class="n">type</span> <span class="o">!=</span> <span class="n">NONTOKEN</span><span class="p">){</span>
 </span></span><span class="line"><span class="cl">            <span class="n">Statement</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">            <span class="n">MatchToken</span><span class="p">(</span><span class="n">SEMICO</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">            <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;</span><span class="se">\t</span><span class="s">matchtoken ;&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;exit from Program&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="kt">void</span> <span class="nf">Statement</span><span class="p">(){</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;enter in Statement&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="k">if</span><span class="p">(</span><span class="n">TempToken</span><span class="p">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">ORIGIN</span><span class="p">)</span> <span class="n">OriginStatement</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">        <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">TempToken</span><span class="p">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">SCALE</span><span class="p">)</span> <span class="n">ScaleStatement</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">        <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">TempToken</span><span class="p">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">ROT</span><span class="p">)</span> <span class="n">RotStatement</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">        <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">TempToken</span><span class="p">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">FOR</span><span class="p">)</span> <span class="n">ForStatement</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">        <span class="k">else</span> <span class="n">SyntaxError</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;exit from Statement&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="kt">void</span> <span class="nf">OriginStatement</span><span class="p">(){</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;enter in OriginStatement&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">ORIGIN</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;</span><span class="se">\t</span><span class="s">matchtoken ORIGIN&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">IS</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;</span><span class="se">\t</span><span class="s">matchtoken IS&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">L_BRACKET</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;</span><span class="se">\t</span><span class="s">matchtoken (&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;enter in Expression&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="n">origin_xptr</span> <span class="o">=</span> <span class="n">Expression</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">        <span class="n">OutExprNode</span><span class="p">(</span><span class="n">origin_xptr</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;exit from Expression&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">origin_x</span> <span class="o">=</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">origin_xptr</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">COMMA</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;</span><span class="se">\t</span><span class="s">matchtoken ,&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;enter in Expression&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="n">origin_yptr</span> <span class="o">=</span> <span class="n">Expression</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">        <span class="n">OutExprNode</span><span class="p">(</span><span class="n">origin_yptr</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;exit from Expression&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">origin_y</span> <span class="o">=</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">origin_yptr</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">R_BRACKET</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;</span><span class="se">\t</span><span class="s">matchtoken )&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;exit from OriginStatement&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="kt">void</span> <span class="nf">RotStatement</span><span class="p">(){</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;enter in RotStatement&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">ROT</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;</span><span class="se">\t</span><span class="s">matchtoken ROT&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">IS</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;</span><span class="se">\t</span><span class="s">matchtoken IS&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;enter in Expression&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="n">rot_ptr</span> <span class="o">=</span> <span class="n">Expression</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">        <span class="n">OutExprNode</span><span class="p">(</span><span class="n">rot_ptr</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;exit from Expression&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;exit from RotStatement&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">rot_ang</span> <span class="o">=</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">rot_ptr</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="kt">void</span> <span class="nf">ScaleStatement</span><span class="p">(){</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;enter in ScaleStatement&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">SCALE</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;</span><span class="se">\t</span><span class="s">matchtoken SCALE&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">IS</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;</span><span class="se">\t</span><span class="s">matchtoken IS&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">L_BRACKET</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;</span><span class="se">\t</span><span class="s">matchtoken (&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;enter in Expression&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="n">scale_xptr</span> <span class="o">=</span> <span class="n">Expression</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">        <span class="n">OutExprNode</span><span class="p">(</span><span class="n">scale_xptr</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;exit from Expression&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">scale_x</span> <span class="o">=</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">scale_xptr</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">COMMA</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;</span><span class="se">\t</span><span class="s">matchtoken ,&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;enter in Expression&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="n">scale_yptr</span> <span class="o">=</span> <span class="n">Expression</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">        <span class="n">OutExprNode</span><span class="p">(</span><span class="n">scale_yptr</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;exit from Expression&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">scale_y</span> <span class="o">=</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">scale_yptr</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">R_BRACKET</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;</span><span class="se">\t</span><span class="s">matchtoken )&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;exit from ScaleStatement&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="kt">void</span> <span class="nf">ForStatement</span><span class="p">(){</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;enter in ForStatement&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">FOR</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;</span><span class="se">\t</span><span class="s">matchtoken FOR&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">T</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;</span><span class="se">\t</span><span class="s">matchtoken T&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">FROM</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;</span><span class="se">\t</span><span class="s">matchtoken FROM&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;enter in Expression&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="n">start_ptr</span> <span class="o">=</span> <span class="n">Expression</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">        <span class="n">OutExprNode</span><span class="p">(</span><span class="n">start_ptr</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;exit from Expression&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">start</span> <span class="o">=</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">start_ptr</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">TO</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;</span><span class="se">\t</span><span class="s">matchtoken TO&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;enter in Expression&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="n">end_ptr</span> <span class="o">=</span> <span class="n">Expression</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">        <span class="n">OutExprNode</span><span class="p">(</span><span class="n">end_ptr</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;exit from Expression&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">end</span> <span class="o">=</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">end_ptr</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">STEP</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;</span><span class="se">\t</span><span class="s">matchtoken STEP&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;enter in Expression&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="n">step_ptr</span> <span class="o">=</span> <span class="n">Expression</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">        <span class="n">OutExprNode</span><span class="p">(</span><span class="n">step_ptr</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;exit from Expression&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">step</span> <span class="o">=</span> <span class="n">GetExpValue</span><span class="p">(</span><span class="n">step_ptr</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">DRAW</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;</span><span class="se">\t</span><span class="s">matchtoken DRAW&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">L_BRACKET</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;</span><span class="se">\t</span><span class="s">matchtoken (&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;enter in Expression&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="n">for_xptr</span> <span class="o">=</span> <span class="n">Expression</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">        <span class="n">OutExprNode</span><span class="p">(</span><span class="n">for_xptr</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;exit from Expression&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">For_X</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">for_xptr</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">COMMA</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;</span><span class="se">\t</span><span class="s">matchtoken ,&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;enter in Expression&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="n">for_yptr</span> <span class="o">=</span> <span class="n">Expression</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">        <span class="n">OutExprNode</span><span class="p">(</span><span class="n">for_yptr</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;exit from Expression&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">For_Y</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">for_yptr</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Origin_X</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">origin_x</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Origin_Y</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">origin_y</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Scale_X</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">scale_x</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Scale_Y</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">scale_y</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Rot_ang</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">rot_ang</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">        <span class="n">MatchToken</span><span class="p">(</span><span class="n">R_BRACKET</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;</span><span class="se">\t</span><span class="s">matchtoken )&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;exit from ForStatement&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="k">struct</span> <span class="nc">ExprNode</span><span class="o">*</span> <span class="nf">Expression</span><span class="p">(){</span>
@@ -1693,9 +1513,49 @@ for t from 0 to 2*pi step pi/10000 draw(cos(t)*cos(t)*cos(t),sin(t)*sin(t)*sin(t
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">Parsers</span><span class="o">::</span><span class="n">cnt</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">DrawXY</span><span class="p">(</span><span class="kt">double</span> <span class="n">for_x</span><span class="p">,</span> <span class="kt">double</span> <span class="n">for_y</span><span class="p">,</span> <span class="kt">double</span> <span class="n">origin_x</span><span class="p">,</span><span class="kt">double</span> <span class="n">origin_y</span><span class="p">,</span><span class="kt">double</span> <span class="n">scale_x</span><span class="p">,</span><span class="kt">double</span> <span class="n">scale_y</span><span class="p">,</span><span class="kt">double</span> <span class="n">rot_ang</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">double</span> <span class="n">tempx</span><span class="p">,</span> <span class="n">tempy</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">for_x</span> <span class="o">*=</span> <span class="n">scale_x</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">for_y</span> <span class="o">*=</span> <span class="n">scale_y</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">tempx</span> <span class="o">=</span> <span class="n">for_x</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">tempy</span> <span class="o">=</span> <span class="n">for_y</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">for_x</span> <span class="o">=</span> <span class="n">tempx</span> <span class="o">*</span> <span class="n">cos</span><span class="p">(</span><span class="n">rot_ang</span><span class="p">)</span> <span class="o">+</span> <span class="n">tempy</span> <span class="o">*</span> <span class="n">sin</span><span class="p">(</span><span class="n">rot_ang</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">for_y</span> <span class="o">=</span> <span class="n">tempy</span> <span class="o">*</span> <span class="n">cos</span><span class="p">(</span><span class="n">rot_ang</span><span class="p">)</span> <span class="o">-</span> <span class="n">tempx</span> <span class="o">*</span> <span class="n">sin</span><span class="p">(</span><span class="n">rot_ang</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">for_x</span> <span class="o">+=</span>  <span class="n">origin_x</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">for_y</span> <span class="o">+=</span>  <span class="n">origin_y</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">putpixel</span><span class="p">(</span><span class="n">for_x</span><span class="p">,</span><span class="n">for_y</span><span class="p">,</span><span class="n">RGB</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span><span class="mi">255</span><span class="p">,</span><span class="mi">255</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">DrawTotalXY</span><span class="p">(</span><span class="n">Parsers</span> <span class="n">P</span><span class="p">,</span> <span class="kt">double</span> <span class="n">Origin_X</span><span class="p">,</span><span class="kt">double</span> <span class="n">Origin_Y</span><span class="p">,</span><span class="kt">double</span> <span class="n">Scale_X</span><span class="p">,</span><span class="kt">double</span> <span class="n">Scale_Y</span><span class="p">,</span><span class="kt">double</span> <span class="n">Rot_ang</span><span class="p">,</span> <span class="kt">double</span> <span class="n">Start</span><span class="p">,</span> <span class="kt">double</span> <span class="n">End</span><span class="p">,</span> <span class="kt">double</span> <span class="n">Step</span><span class="p">,</span> <span class="k">struct</span> <span class="nc">ExprNode</span><span class="o">*</span> <span class="n">For_X</span><span class="p">,</span> <span class="k">struct</span> <span class="nc">ExprNode</span><span class="o">*</span> <span class="n">For_Y</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">double</span> <span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">P</span><span class="p">.</span><span class="n">Parameter</span> <span class="o">=</span> <span class="n">Start</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">Step</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="p">(</span><span class="n">P</span><span class="p">.</span><span class="n">Parameter</span> <span class="o">&lt;=</span> <span class="n">End</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">x</span> <span class="o">=</span> <span class="n">P</span><span class="p">.</span><span class="n">GetExpValue</span><span class="p">(</span><span class="n">For_X</span><span class="p">)</span> <span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="n">y</span> <span class="o">=</span> <span class="n">P</span><span class="p">.</span><span class="n">GetExpValue</span><span class="p">(</span><span class="n">For_Y</span><span class="p">)</span> <span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="n">DrawXY</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">Origin_X</span><span class="p">,</span><span class="n">Origin_Y</span><span class="p">,</span><span class="n">Scale_X</span><span class="p">,</span><span class="n">Scale_Y</span><span class="p">,</span><span class="n">Rot_ang</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="n">P</span><span class="p">.</span><span class="n">Parameter</span> <span class="o">+=</span> <span class="n">Step</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">Step</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="p">(</span><span class="n">P</span><span class="p">.</span><span class="n">Parameter</span> <span class="o">&gt;=</span> <span class="n">End</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">x</span> <span class="o">=</span> <span class="n">P</span><span class="p">.</span><span class="n">GetExpValue</span><span class="p">(</span><span class="n">For_X</span><span class="p">)</span> <span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="n">y</span> <span class="o">=</span> <span class="n">P</span><span class="p">.</span><span class="n">GetExpValue</span><span class="p">(</span><span class="n">For_Y</span><span class="p">)</span> <span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="n">DrawXY</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">Origin_X</span><span class="p">,</span><span class="n">Origin_Y</span><span class="p">,</span><span class="n">Scale_X</span><span class="p">,</span><span class="n">Scale_Y</span><span class="p">,</span><span class="n">Rot_ang</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="n">P</span><span class="p">.</span><span class="n">Parameter</span> <span class="o">+=</span> <span class="n">Step</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="n">Parsers</span> <span class="n">P</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="n">P</span><span class="p">.</span><span class="n">Parser</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="n">initgraph</span><span class="p">(</span><span class="mi">1000</span><span class="p">,</span> <span class="mi">700</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">Start</span><span class="p">.</span><span class="n">size</span><span class="p">();</span> <span class="n">i</span> <span class="o">++</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">DrawTotalXY</span><span class="p">(</span><span class="n">P</span><span class="p">,</span><span class="n">Origin_X</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">Origin_Y</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">Scale_X</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">Scale_Y</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">Rot_ang</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">Start</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">End</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">Step</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">For_X</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">For_Y</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">_getch</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="n">closegraph</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div>
@@ -1717,8 +1577,8 @@ for t from 0 to 2*pi step pi/10000 draw(cos(t)*cos(t)*cos(t),sin(t)*sin(t)*sin(t
           
         
       <script>
-        var oid = "views_blogs\/编译原理上机(二）\/index.md"
-        var oid_likes = "likes_blogs\/编译原理上机(二）\/index.md"
+        var oid = "views_blogs\/FGLCompiler3\/index.md"
+        var oid_likes = "likes_blogs\/FGLCompiler3\/index.md"
       </script>
       
       
@@ -1738,7 +1598,7 @@ for t from 0 to 2*pi step pi/10000 draw(cos(t)*cos(t)*cos(t),sin(t)*sin(t)*sin(t
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/blogs/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E4%B8%8A%E6%9C%BA%E4%B8%80/">
+            <a class="flex group mr-3" href="/blogs/fglcompiler2/">
               <span
                 class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
                 >&larr;</span
@@ -1750,11 +1610,11 @@ for t from 0 to 2*pi step pi/10000 draw(cos(t)*cos(t)*cos(t),sin(t)*sin(t)*sin(t
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >编译原理上机（一) - 词法分析器</span
+                  >编译原理上机(二) — 语法分析器</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2022-11-19 00:00:00 &#43;0000 UTC">2022/11/19</time>
+                    <time datetime="2022-11-20 00:00:00 &#43;0000 UTC">2022/11/20</time>
                   
                 </span>
               </span>
@@ -1763,15 +1623,15 @@ for t from 0 to 2*pi step pi/10000 draw(cos(t)*cos(t)*cos(t),sin(t)*sin(t)*sin(t
         </span>
         <span>
           
-            <a class="flex text-right group ml-3" href="/blogs/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E4%B8%8A%E6%9C%BA%E4%B8%89/">
+            <a class="flex text-right group ml-3" href="/blogs/fglcompilerlink/">
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >编译原理上机(三) - 绘图器</span
+                  >编译原理上机 - 函数绘图语言编译器 - 报告及代码下载链接</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2022-11-21 00:00:00 &#43;0000 UTC">2022/11/21</time>
+                    <time datetime="2022-11-22 00:00:00 &#43;0000 UTC">2022/11/22</time>
                   
                 </span>
               </span>

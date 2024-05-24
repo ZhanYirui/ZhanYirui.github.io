@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
-  data-auto-appearance="true"><head>
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -15,7 +15,7 @@
   <meta name="keywords" content="Miniconda, " />
   
   
-  <link rel="canonical" href="https://www.enly.site/blogs/condainstall/" />
+  <link rel="canonical" href="http://localhost:1313/blogs/condainstall/" />
   
   
   
@@ -61,7 +61,7 @@
   
   
   
-  <meta property="og:url" content="https://www.enly.site/blogs/condainstall/">
+  <meta property="og:url" content="http://localhost:1313/blogs/condainstall/">
   <meta property="og:site_name" content="Enly">
   <meta property="og:title" content="Miniconda安装及卸载教程">
   <meta property="og:description" content="Miniconda安装及卸载教程">
@@ -88,7 +88,7 @@
     "description": "Miniconda安装及卸载教程",
     "abstract": "Miniconda安装及卸载教程",
     "inLanguage": "en",
-    "url" : "https:\/\/www.enly.site\/blogs\/condainstall\/",
+    "url" : "http:\/\/localhost:1313\/blogs\/condainstall\/",
     "author" : {
       "@type": "Person",
       "name": "Enly"
@@ -102,7 +102,7 @@
     "keywords": ["Miniconda"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "295"
+    "wordCount": "300"
   }]
   </script>
 
@@ -1063,11 +1063,11 @@
 <tbody>
 <tr>
 <td style="text-align:left"><strong>获取版本号</strong></td>
-<td><strong>conda &ndash;version</strong></td>
+<td><strong>conda -v</strong></td>
 </tr>
 <tr>
 <td style="text-align:left"><strong>获取帮助</strong></td>
-<td><strong>conda &ndash;help</strong></td>
+<td><strong>conda -h</strong></td>
 </tr>
 <tr>
 <td style="text-align:left"><strong>创建环境</strong></td>
@@ -1075,7 +1075,7 @@
 </tr>
 <tr>
 <td style="text-align:left"><strong>创建指定python版本下包含某些包的环境</strong></td>
-<td><strong>conda create -n</strong> environment_name **python=**3.7 numpy scipy</td>
+<td><strong>conda create -n</strong> environment_name <strong>python=</strong> 3.7 numpy scipy</td>
 </tr>
 <tr>
 <td style="text-align:left"><strong>进入环境</strong></td>
@@ -1087,7 +1087,7 @@
 </tr>
 <tr>
 <td style="text-align:left"><strong>删除环境</strong></td>
-<td><strong>conda remove -n</strong> environment_name <strong>&ndash;all</strong></td>
+<td><strong>conda remove -n</strong> environment_name <strong>- -all</strong></td>
 </tr>
 <tr>
 <td style="text-align:left"><strong>列出所有环境</strong></td>
@@ -1095,7 +1095,7 @@
 </tr>
 <tr>
 <td style="text-align:left"><strong>将旧环境复制到新环境</strong></td>
-<td><strong>conda create &ndash;name</strong> new_env_name <strong>&ndash;clone</strong> old_env_name</td>
+<td><strong>conda create - -name</strong> new_env_name <strong>- -clone</strong> old_env_name</td>
 </tr>
 <tr>
 <td style="text-align:left"><strong>安装包</strong></td>
@@ -1131,7 +1131,7 @@
 </tr>
 <tr>
 <td style="text-align:left"><strong>清理所有安装包及cache</strong></td>
-<td><strong>conda clean -y &ndash;all</strong></td>
+<td><strong>conda clean -y - -all</strong></td>
 </tr>
 </tbody>
 </table>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Miniconda on Enly</title>
+    <link>https://www.enly.site/tags/miniconda/</link>
+    <description>Recent content in Miniconda on Enly</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2024 Enly</copyright>
+    <lastBuildDate>Mon, 13 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.enly.site/tags/miniconda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Miniconda安装及卸载教程</title>
+      <link>https://www.enly.site/blogs/condainstall/</link>
+      <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.enly.site/blogs/condainstall/</guid>
+      <description>Miniconda安装及卸载教程</description>
+      
+    </item>
+    
+  </channel>
+</rss>

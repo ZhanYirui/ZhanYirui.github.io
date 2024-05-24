@@ -16,7 +16,13 @@
   </url>
   <url>
     <loc>https://www.enly.site/blogs/</loc>
-    <lastmod>2023-07-22T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-13T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.enly.site/blogs/condainstall/</loc>
+    <lastmod>2023-11-13T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

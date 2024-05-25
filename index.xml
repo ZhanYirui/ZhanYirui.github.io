@@ -19,22 +19,22 @@
     </item>
     
     <item>
-      <title>Miniconda安装及卸载教程</title>
+      <title>macOS安装及卸载Miniconda教程</title>
       <link>http://localhost:1313/blogs/condainstall/</link>
       <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/blogs/condainstall/</guid>
-      <description>Miniconda安装及卸载教程</description>
+      <description>macOS安装及卸载Miniconda教程</description>
       
     </item>
     
     <item>
-      <title>花书笔记</title>
-      <link>http://localhost:1313/blogs/flowernote/</link>
+      <title>动手学深度学习笔记</title>
+      <link>http://localhost:1313/blogs/diveintodeeplearning/</link>
       <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blogs/flowernote/</guid>
-      <description>花书 - 《 深度学习 》学习笔记</description>
+      <guid>http://localhost:1313/blogs/diveintodeeplearning/</guid>
+      <description>动手学深度学习 - 《 Dive into Deep Learning 》学习笔记</description>
       
     </item>
     
@@ -59,42 +59,32 @@
     </item>
     
     <item>
-      <title>编译原理上机 - 函数绘图语言编译器 - 报告及代码下载链接</title>
-      <link>http://localhost:1313/blogs/fglcompilerlink/</link>
-      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/blogs/fglcompilerlink/</guid>
-      <description>西电编译原理大作业 - 函数绘图语言编译器C++实现 - 报告及代码下载链接</description>
-      
-    </item>
-    
-    <item>
-      <title>编译原理上机(三) - 绘图器</title>
+      <title>编译原理上机(3) - 绘图器</title>
       <link>http://localhost:1313/blogs/fglcompiler3/</link>
       <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/blogs/fglcompiler3/</guid>
-      <description>西电编译原理大作业 - 函数绘图语言编译器C++实现 - Part 3 - 绘图器</description>
+      <description>西电编译原理大作业 - 函数绘图语言编译器 - C++实现 - 绘图器</description>
       
     </item>
     
     <item>
-      <title>编译原理上机(二) — 语法分析器</title>
+      <title>编译原理上机(2) — 语法分析器</title>
       <link>http://localhost:1313/blogs/fglcompiler2/</link>
       <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/blogs/fglcompiler2/</guid>
-      <description>西电编译原理大作业 - 函数绘图语言编译器C++实现 - Part 2 - 语法分析器</description>
+      <description>西电编译原理大作业 - 函数绘图语言编译器 - C++实现 - 语法分析器</description>
       
     </item>
     
     <item>
-      <title>编译原理上机（一) - 词法分析器</title>
+      <title>编译原理上机(1) - 词法分析器</title>
       <link>http://localhost:1313/blogs/fglcompiler1/</link>
       <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/blogs/fglcompiler1/</guid>
-      <description>西电编译原理大作业 - 函数绘图语言编译器C++实现 - Part 1 - 词法分析器</description>
+      <description>西电编译原理大作业 - 函数绘图语言编译器 - C++实现 - 词法分析器</description>
       
     </item>
     

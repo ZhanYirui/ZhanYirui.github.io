@@ -7,44 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2024 Enly</copyright>
-    <lastBuildDate>Tue, 22 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>编译原理上机 - 函数绘图语言编译器 - 报告及代码下载链接</title>
-      <link>http://localhost:1313/blogs/fglcompilerlink/</link>
-      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/blogs/fglcompilerlink/</guid>
-      <description>西电编译原理大作业 - 函数绘图语言编译器C++实现 - 报告及代码下载链接</description>
-      
-    </item>
-    
-    <item>
-      <title>编译原理上机(三) - 绘图器</title>
+      <title>编译原理上机(3) - 绘图器</title>
       <link>http://localhost:1313/blogs/fglcompiler3/</link>
       <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/blogs/fglcompiler3/</guid>
-      <description>西电编译原理大作业 - 函数绘图语言编译器C++实现 - Part 3 - 绘图器</description>
+      <description>西电编译原理大作业 - 函数绘图语言编译器 - C++实现 - 绘图器</description>
       
     </item>
     
     <item>
-      <title>编译原理上机(二) — 语法分析器</title>
+      <title>编译原理上机(2) — 语法分析器</title>
       <link>http://localhost:1313/blogs/fglcompiler2/</link>
       <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/blogs/fglcompiler2/</guid>
-      <description>西电编译原理大作业 - 函数绘图语言编译器C++实现 - Part 2 - 语法分析器</description>
+      <description>西电编译原理大作业 - 函数绘图语言编译器 - C++实现 - 语法分析器</description>
       
     </item>
     
     <item>
-      <title>编译原理上机（一) - 词法分析器</title>
+      <title>编译原理上机(1) - 词法分析器</title>
       <link>http://localhost:1313/blogs/fglcompiler1/</link>
       <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/blogs/fglcompiler1/</guid>
-      <description>西电编译原理大作业 - 函数绘图语言编译器C++实现 - Part 1 - 词法分析器</description>
+      <description>西电编译原理大作业 - 函数绘图语言编译器 - C++实现 - 词法分析器</description>
       
     </item>
     

@@ -3,20 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/about/</loc>
-    <lastmod>2024-05-18T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/blogs/</loc>
+    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-05-18T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2023-11-13T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/blogs/codeobfuscation/</loc>
+    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2024-05-18T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -59,11 +65,6 @@
   <url>
     <loc>http://localhost:1313/blogs/fglcompiler1/</loc>
     <lastmod>2022-11-19T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/blogs/codeobfuscation/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

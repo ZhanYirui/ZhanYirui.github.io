@@ -8,15 +8,5 @@
     <language>en</language>
     <copyright>Copyright © 2024 Enly</copyright>
     <atom:link href="http://localhost:1313/tags/software-and-system-security/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>软件与系统安全笔记 - 代码混淆</title>
-      <link>http://localhost:1313/blogs/codeobfuscation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/blogs/codeobfuscation/</guid>
-      <description>软件与系统安全笔记 - 代码混淆</description>
-      
-    </item>
-    
   </channel>
 </rss>

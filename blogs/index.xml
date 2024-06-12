@@ -2,78 +2,88 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Enly</title>
-    <link>https://www.enly.site/blogs/</link>
+    <link>http://localhost:1313/blogs/</link>
     <description>Recent content in Blogs on Enly</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2024 Enly</copyright>
-    <lastBuildDate>Mon, 13 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.enly.site/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>软件与系统安全笔记 - 代码混淆</title>
+      <link>http://localhost:1313/blogs/codeobfuscation/</link>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blogs/codeobfuscation/</guid>
+      <description>软件与系统安全笔记 - 代码混淆</description>
+      
+    </item>
+    
     <item>
       <title>macOS安装及卸载Miniconda教程</title>
-      <link>https://www.enly.site/blogs/condainstall/</link>
+      <link>http://localhost:1313/blogs/condainstall/</link>
       <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.enly.site/blogs/condainstall/</guid>
+      <guid>http://localhost:1313/blogs/condainstall/</guid>
       <description>macOS安装及卸载Miniconda教程</description>
       
     </item>
     
     <item>
       <title>动手学深度学习笔记</title>
-      <link>https://www.enly.site/blogs/diveintodeeplearning/</link>
+      <link>http://localhost:1313/blogs/diveintodeeplearning/</link>
       <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.enly.site/blogs/diveintodeeplearning/</guid>
+      <guid>http://localhost:1313/blogs/diveintodeeplearning/</guid>
       <description>动手学深度学习 - 《 Dive into Deep Learning 》学习笔记</description>
       
     </item>
     
     <item>
       <title>西瓜书笔记(下)</title>
-      <link>https://www.enly.site/blogs/watermelonnote2/</link>
+      <link>http://localhost:1313/blogs/watermelonnote2/</link>
       <pubDate>Sun, 23 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.enly.site/blogs/watermelonnote2/</guid>
+      <guid>http://localhost:1313/blogs/watermelonnote2/</guid>
       <description>西瓜书 - 《 机器学习 》学习笔记 - 9-16章</description>
       
     </item>
     
     <item>
       <title>西瓜书笔记(上)</title>
-      <link>https://www.enly.site/blogs/watermelonnote1/</link>
+      <link>http://localhost:1313/blogs/watermelonnote1/</link>
       <pubDate>Wed, 12 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.enly.site/blogs/watermelonnote1/</guid>
+      <guid>http://localhost:1313/blogs/watermelonnote1/</guid>
       <description>西瓜书 - 《 机器学习 》 学习笔记 - 1-8章</description>
       
     </item>
     
     <item>
       <title>编译原理上机(3) - 绘图器</title>
-      <link>https://www.enly.site/blogs/fglcompiler3/</link>
+      <link>http://localhost:1313/blogs/fglcompiler3/</link>
       <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.enly.site/blogs/fglcompiler3/</guid>
+      <guid>http://localhost:1313/blogs/fglcompiler3/</guid>
       <description>西电编译原理大作业 - 函数绘图语言编译器 - C++实现 - 绘图器</description>
       
     </item>
     
     <item>
       <title>编译原理上机(2) — 语法分析器</title>
-      <link>https://www.enly.site/blogs/fglcompiler2/</link>
+      <link>http://localhost:1313/blogs/fglcompiler2/</link>
       <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.enly.site/blogs/fglcompiler2/</guid>
+      <guid>http://localhost:1313/blogs/fglcompiler2/</guid>
       <description>西电编译原理大作业 - 函数绘图语言编译器 - C++实现 - 语法分析器</description>
       
     </item>
     
     <item>
       <title>编译原理上机(1) - 词法分析器</title>
-      <link>https://www.enly.site/blogs/fglcompiler1/</link>
+      <link>http://localhost:1313/blogs/fglcompiler1/</link>
       <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.enly.site/blogs/fglcompiler1/</guid>
+      <guid>http://localhost:1313/blogs/fglcompiler1/</guid>
       <description>西电编译原理大作业 - 函数绘图语言编译器 - C++实现 - 词法分析器</description>
       
     </item>

@@ -7,24 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2024 Enly</copyright>
-    <lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>软件与系统安全笔记 - 代码混淆</title>
-      <link>http://localhost:1313/blogs/codeobfuscation/</link>
-      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+      <title>MacOS系统M芯片利用AFL&#43;&#43;进行模糊测试教程</title>
+      <link>http://localhost:1313/blogs/aflplusinstall/</link>
+      <pubDate>Sat, 29 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blogs/codeobfuscation/</guid>
-      <description>软件与系统安全笔记 - 代码混淆</description>
+      <guid>http://localhost:1313/blogs/aflplusinstall/</guid>
+      <description>MacOS系统M芯片利用AFL++进行模糊测试教程</description>
       
     </item>
     
     <item>
-      <title>软件与系统安全笔记(8) —— 木马</title>
+      <title>软件与系统安全笔记(8) - 木马</title>
       <link>http://localhost:1313/blogs/trojan/</link>
-      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/blogs/trojan/</guid>
-      <description>软件与系统安全笔记(8) — 木马</description>
+      <description>软件与系统安全笔记(8) - 木马</description>
+      
+    </item>
+    
+    <item>
+      <title>软件与系统安全笔记(5) - 代码混淆</title>
+      <link>http://localhost:1313/blogs/codeobfuscation/</link>
+      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blogs/codeobfuscation/</guid>
+      <description>软件与系统安全笔记(5) - 代码混淆</description>
       
     </item>
     
@@ -79,7 +89,7 @@
     </item>
     
     <item>
-      <title>编译原理上机(2) — 语法分析器</title>
+      <title>编译原理上机(2) - 语法分析器</title>
       <link>http://localhost:1313/blogs/fglcompiler2/</link>
       <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
       
